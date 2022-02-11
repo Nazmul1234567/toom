@@ -1,0 +1,285 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* heaser stasrtt */
+
+header {
+    background: red;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.navitionbar li {
+    display: inline-block;
+}
+
+a.tik\> {
+    font-size: 20px;
+    padding: 20px 15px;
+    display: inline-block;
+    color: white;
+}
+
+a.tik\>:hover {
+    background: grey;
+}
+
+h3.heaserh {
+    font-size: 23px;
+    color: white;
+    padding: 18px;
+}
+
+ul.navitionbar {
+    margin-right: 10px;
+}
+
+
+/* heaser end */
+
+/* ma in start in this place */
+
+section#allmaneinformation {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+
+article {
+    width: 66%;
+}
+
+aside {
+    width: 30%;
+}
+
+.div0 {
+    width: 100%;
+    margin: 20px;
+    padding: 22px 30px;
+    box-shadow: 0px 0px 8px 1px grey;
+    padding-bottom: 75px;
+}
+
+h1.articleh {
+    font-size: 35px;
+    padding: 40px 0px;
+}
+
+p.articlep {
+    padding-bottom: 25px;
+}
+
+input.inpithafj {
+    font-size: 20px;
+    padding: 10px;
+    width: 250px;
+}
+
+button.btn {
+    font-size: 28px;
+    padding: 8px 17px;
+    position: relative;
+    top: 3px;
+    left: -5px;
+    border: navajowhite;
+    color: white;
+    background: grey;
+}
+
+
+.div1 {
+    width: 100%;
+    background: blanchedalmond;
+    padding: 40px;
+    box-shadow: 0px 0px 8px 1px grey;
+    margin-top: 20px;
+}
+
+/* div1 end this place */
+
+/* div1 main this the start */
+
+h3.asideh {
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+p.asidep {
+    text-align: justify;
+    line-height: 31px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+button.com {
+    font-size: 21px;
+    padding: 15px;
+    background: gray;
+    color: white;
+    border: none;
+}
+
+
+
+/* box2 start in this hear */
+h3.asideh {
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+p.asidep {
+    text-align: justify;
+    line-height: 31px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+button.com {
+    font-size: 21px;
+    padding: 15px;
+    background: gray;
+    color: white;
+    border: none;
+}
+
+.div2 {
+    width: 100%;
+    background: white;
+    padding: 40px;
+    box-shadow: 0px 0px 8px 1px grey;
+    margin-top: 20px;
+}
+
+.socialinformainonall {
+    display: flex;
+    flex-direction: column;
+}
+
+a.nnn {
+    margin: 10px 0px;
+    font-size: 21px;
+    color: blue;
+}
+
+h3.flome {
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+
+/* div1 main this the end *
+
+
+/* main end this plaxe */
+
+
+/* footer start */
+footer {
+    background: red;
+    height: 70px;
+    padding: 30px 36px;
+    color: white;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* footer start */
+@media (max-width:992px) {}
+
+
+@media (max-width:768px) {
+
+    a.tik\> {
+        padding: 19px 7px;
+    }
+
+    h3.heaserh {
+        flex-basis: 69%;
+        padding: 19px;
+    }
+
+    ul.navitionbar {
+        margin-right: 0px;
+    }
+
+    a.tik\> {
+        padding: 19px 0px;
+        margin: 2px;
+    }
+
+    nav.rtyi {
+        flex-basis: 100%;
+    }
+}
+
+
+@media (max-width:700px) {
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    ul.navitionbar li {
+        display: block;
+        padding: 10px;
+
+    }
+
+    a.tik\> {
+        border-radius: 10px;
+        display: block;
+        color: black;
+        margin: 0px;
+        padding: 10px 5px;
+        background-color: antiquewhite;
+    }
+
+
+    section#allmaneinformation {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .div1 {}
+    
+    aside {
+        width: 100%;
+    }
+    
+    article {
+        width: 100%;
+    }
+    
+    .div0 {
+        margin: 0px;
+    }
+
+    footer {
+        background: red;
+        height: 70px;
+        padding: 30px 36px;
+        color: white;
+        align-items: center;
+    }
+    
+    footer p {
+        text-align: center;
+    }
+
+
+}
